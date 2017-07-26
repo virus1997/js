@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>湖南软件学院官网</title>
+    <link rel="stylesheet" type="text/css" href="css/register_Css.css"/>
+
+</head>
+<body>
+    <h3>欢迎注册湖南软件学院成员</h3>
+    <hr/>
+    <form action="www.baidu.com" method="post" >
+        <table align="center">
+            <tr>
+                <td>
+                    <label for="user">账号</label>
+                </td>
+                <td>
+                    <input type="number" id="user" placeholder="请输入账号"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="password">密码</label>
+                </td>
+                <td>
+                    <input type="password" id="password" placeholder="请输入密码"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="re_password">确认密码</label>
+                </td>
+                <td>
+                    <input type="password" id="re_password" placeholder="确认密码"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="city">请选择城市</label>
+                </td>
+                <td>
+                    <select name="select_city" id="city">
+                        <option value="0">北京</option>
+                        <option value="1">上海</option>
+                        <option value="2">广州</option>
+                        <option value="3">深圳</option>
+                        <option value="4">长沙</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>请选择性别</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" id="boy" name="sex" checked="checked"/>
+                    <label for="boy">男</label>
+                </td>
+                <td>
+                    <input type="radio" id="girl" name="sex" />
+                    <label for="girl">女</label>
+                </td>
+                <td>
+                    <input type="radio" id="no" name="sex" />
+                    <label for="no">不好说</label>
+                </td>
+            </tr>
+            <tr>
+                <td>请选择职业</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio"id="student" name="work"checked="checked" />
+                    <label for="student">学生</label>
+                </td>
+                <td>
+                    <input type="radio"id="teacher" name="work"/>
+                    <label for="teacher">老师</label>
+                </td>
+                <td>
+                    <input type="radio"id="other" name="work"/>
+                    <label for="other">其他</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    请选择爱好
+                </td>
+                <td>
+                    <fieldset>
+                        <legend>爱好</legend>
+                        <input type="checkbox" id="fitness" name="hobby"/>
+                        <label for="fitness">健身</label>
+                        <input type="checkbox" id="read" name="hobby"/>
+                        <label for="read">阅读</label>
+                        <input type="checkbox" id="computer_game" name="hobby"/>
+                        <label for="computer_game">玩电脑游戏</label>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="remarks">这里是备注</label>
+                </td>
+                <td>
+                    <textarea name="" id="remarks" placeholder="请填写备注"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="提交"/>
+                </td>
+                <td>
+                    <input type="reset" value="重置"/>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html><!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>湖南软件学院官网</title>
+    <link rel="stylesheet" type="text/css" href="css/register_Css.css"/>
+
+</head>
+<body>
+    <h3>欢迎注册湖南软件学院成员</h3>
+    <hr/>
+    <form action="www.baidu.com" method="post" >
+        <table align="center">
+            <tr>
+                <td>
+                    <label for="user">账号</label>
+                </td>
+                <td>
+                    <input type="number" id="user" placeholder="请输入账号"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="password">密码</label>
+                </td>
+                <td>
+                    <input type="password" id="password" placeholder="请输入密码"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="re_password">确认密码</label>
+                </td>
+                <td>
+                    <input type="password" id="re_password" placeholder="确认密码"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="city">请选择城市</label>
+                </td>
+                <td>
+                    <select name="select_city" id="city">
+                        <option value="0">北京</option>
+                        <option value="1">上海</option>
+                        <option value="2">广州</option>
+                        <option value="3">深圳</option>
+                        <option value="4">长沙</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>请选择性别</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" id="boy" name="sex" checked="checked"/>
+                    <label for="boy">男</label>
+                </td>
+                <td>
+                    <input type="radio" id="girl" name="sex" />
+                    <label for="girl">女</label>
+                </td>
+                <td>
+                    <input type="radio" id="no" name="sex" />
+                    <label for="no">不好说</label>
+                </td>
+            </tr>
+            <tr>
+                <td>请选择职业</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio"id="student" name="work"checked="checked" />
+                    <label for="student">学生</label>
+                </td>
+                <td>
+                    <input type="radio"id="teacher" name="work"/>
+                    <label for="teacher">老师</label>
+                </td>
+                <td>
+                    <input type="radio"id="other" name="work"/>
+                    <label for="other">其他</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    请选择爱好
+                </td>
+                <td>
+                    <fieldset>
+                        <legend>爱好</legend>
+                        <input type="checkbox" id="fitness" name="hobby"/>
+                        <label for="fitness">健身</label>
+                        <input type="checkbox" id="read" name="hobby"/>
+                        <label for="read">阅读</label>
+                        <input type="checkbox" id="computer_game" name="hobby"/>
+                        <label for="computer_game">玩电脑游戏</label>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="remarks">这里是备注</label>
+                </td>
+                <td>
+                    <textarea name="" id="remarks" placeholder="请填写备注"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="提交"/>
+                </td>
+                <td>
+                    <input type="reset" value="重置"/>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
